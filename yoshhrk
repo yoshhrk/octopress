@@ -1,0 +1,6 @@
+git clone git@github.com:imathis/octopress.git yoshhrk.github.io
+gem install bundler
+bundle install --path vendor/bundle --jobs=4
+bundle exec rake setup_github_pages
+Enter the read/write url for your repository: git@github.com: username/username.github.com.git
+Repository url:
